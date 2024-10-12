@@ -1,0 +1,14 @@
+      
+build:
+  version: "3.0"
+
+
+accounts:    
+  message: "Kindly contact Prod-team"
+  contactDetails:
+    email: "kalaiprod-team@gmail.com"
+    address: "1013 East Street, Cross Road, San-fransico FROM PROD"
+  onCallSupport:
+    - 04366262506
+    - 04366296103     
+        

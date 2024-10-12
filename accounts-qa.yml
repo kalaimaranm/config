@@ -1,0 +1,12 @@
+
+build:
+  version: "2.0"
+
+accounts:    
+  message: "Kindly contact QA-team"
+  contactDetails:
+    email: "kalaiqa-team@gmail.com"
+    address: "1013 East Street, Cross Road, San-fransico"
+  onCallSupport:
+    - 04366262506
+    - 04366296103           

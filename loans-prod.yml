@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "3.0"
+
+loans:    
+  message: "Kindly contact prod-team"
+  contactDetails:
+    email: "kalaiprod-team@gmail.com"
+    address: "1013 East Street, Cross Road, San-fransico"
+  onCallSupport:
+    - 04366262506
+    - 04366296103 
+        
