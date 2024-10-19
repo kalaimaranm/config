@@ -21,11 +21,11 @@ spring:
   profiles: 
     active: "qa"
 
-loans:    
+cards:    
   message: "Kindly contact dev-team"
   contactDetails:
     email: "kalaidev-team@gmail.com"
-    address: "1013 East Street, Cross Road, San-fransico"
+    address: "1013 East Street, Cross Road, San-fransico - Q - G"
   onCallSupport:
     - 04366262506
     - 04366296103  
