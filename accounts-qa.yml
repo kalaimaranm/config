@@ -10,3 +10,9 @@ accounts:
   onCallSupport:
     - 04366262506
     - 04366296103           
+rabbitmq:
+  host: "localhost"
+  port: "5672"
+  username: "guest"
+  password: "guest"        
+        
