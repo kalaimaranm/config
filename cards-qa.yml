@@ -4,7 +4,7 @@ spring:
       on-profile: "qa"
   
   
-loans:    
+cards:    
   message: "Kindly contact qa-team"
   contactDetails:
     email: "kalaiqa-team@gmail.com"
