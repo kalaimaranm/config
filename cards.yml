@@ -1,6 +1,28 @@
+cards:    
+  message: "Kindly contact dev-team"
+  contactDetails:
+    email: "kalaidev-team@gmail.com"
+    address: "1013 East Street, Cross Road, San-fransico, (FROM FILE CONFIG)"
+  onCallSupport:
+    - 04366262506
+    - 04366296103          
+
+#accounts:
+#  message: "Welcome to EazyBank accounts related local APIs "
+#  contactDetails:
+#    name: "John Doe - Developer"
+#    email: "john@eazybank.com"
+#  onCallSupport:
+#    - (555) 555-1234
+#    - (555) 523-1345
+
+
 server:
-  port: 8090
+  port: 8090   
+  
 spring:
+  application:
+    name: cards
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
@@ -14,18 +36,9 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  config:
+  config:            
     import:
-      - "application-qa.yml"
-      - "application-prod.yml"
+      - "application_qa.yml"
+      - "application_prod.yml"
   profiles: 
     active: "qa"
-
-cards:    
-  message: "Kindly contact dev-team"
-  contactDetails:
-    email: "kalaidev-team@gmail.com"
-    address: "1013 East Street, Cross Road, San-fransico - Q - G"
-  onCallSupport:
-    - 04366262506
-    - 04366296103  
