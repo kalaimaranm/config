@@ -42,3 +42,8 @@ spring:
       - "application_prod.yml"
   profiles: 
     active: "qa"
+  rabbitmq:
+    host: "localhost"
+    port: "5672"
+    username: "guest"
+    password: "guest"   
