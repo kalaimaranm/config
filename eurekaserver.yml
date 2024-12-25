@@ -8,3 +8,6 @@ eureka:
     registerWithEureka: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  config:
+    import: "optional:configserver:http://localhost:8071/"
